@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>MVC</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h2>Various practices on servlet</h2>
+	<form action="WelcomeServlet" method="post" class="form-group">
+	
+	
+		<input type="submit" value="show message" class="btn btn-primary">
+	</form>
+	<hr/>
+	<h2>Exercise 2 Tunned welcome message</h2>
+	<form action="TunnedWelcomeServlet" method="post" class="form-group">
+		<p>
+			<label for="txtMessage">Message</label>
+			<input type="text" id="txtMessage" name="txtMessage" class="form-control">
+		</p>
+		<input type="submit" value="show message" class="btn btn-primary">
+	</form>
+	<hr/>
+	<h2>Exercise 3 Addition of two numbers</h2>
+	<form action="AdditionTwoNumbersServlet" method="post">
+		<p>
+			<label for="txtNumber1">Input number 1</label>
+			<input class="form-control" type="number" name="txtNumber1" id="txtNumber1">
+		</p>
+		<p>
+			<label for="txtNumber2">Input number 2</label>
+			<input class="form-control" type="number" name="txtNumber2" id="txtNumber2">
+		</p>
+		<input type="submit" class="btn btn-danger" value="add both numbers">
+	</form>
+	<hr/>
+	<h2>Exercise 4 prime numbers</h2>
+	<form action="PrimeNumbersServlet" method="post">
+		<p>
+			<label for="txtNumber">Input a number</label>
+			<input class="form-control" type="number" name="txtNumber" id="txtNumber">
+		</p>
+		<input type="submit" class="btn btn-info" value="Find prime numbers">
+	</form>
+	
+	
+	<script type="text/javascript" src="js/jQuery3.4.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
